@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:product_catalog_app/controller/product_provider.dart';
-import 'package:product_catalog_app/view/product_list_screen.dart';
 import 'package:product_catalog_app/view/splash_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
        
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 58, 162, 183)),
       ),
       home: SplashScreen(),
     );

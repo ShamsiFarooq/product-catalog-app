@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
     return AnimatedSplashScreen(
       splash: 
           Center(
-            child: Lottie.asset(
+            child: Lottie.asset( 
               'assets/animation/Animation - 1746290710872.json',
             ),
           ),
